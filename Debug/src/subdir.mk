@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/backjack.cpp \
 ../src/calculator.cpp \
 ../src/dynamic_names_sort.cpp \
 ../src/find_name.cpp \
@@ -14,6 +15,7 @@ CPP_SRCS += \
 ../src/swap.cpp 
 
 OBJS += \
+./src/backjack.o \
 ./src/calculator.o \
 ./src/dynamic_names_sort.o \
 ./src/find_name.o \
@@ -24,6 +26,7 @@ OBJS += \
 ./src/swap.o 
 
 CPP_DEPS += \
+./src/backjack.d \
 ./src/calculator.d \
 ./src/dynamic_names_sort.d \
 ./src/find_name.d \
